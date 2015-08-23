@@ -18,13 +18,13 @@
   border: none;
   padding: 1px;
   min-width: 0;
-  list-style-image: url("chrome://global/skin/icons/throbber/gnome/Throbber.png");
+  list-style-image: url("chrome://communicator/skin/brand/throbber-single.png");
   background-color: transparent;
   -moz-appearance:none !important;
 }
 
 #navigator-throbber[busy="true"] {
-  list-style-image: url("chrome://global/skin/icons/throbber/gnome/Throbber.gif");
+  list-style-image: url("chrome://communicator/skin/brand/throbber-anim.png");
 }
 
 window[chromehidden~="toolbar"] #navigator-throbber,
